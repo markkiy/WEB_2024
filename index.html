@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <title>Ismétlés</title>
+        <meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Év eleji ismétlés</h1>
+		
+		
+		<h2>Tartalomjegyzék</h2>
+		
+		<ul>
+			<li><a href="#hiperhiv">Hiperhivatkozás</a></li>
+		</ul>
+		
+        
+        <h2>Címsorok használata</h2>
+        
+        <h1>Első</h1>
+        <h2>Második</h2>
+        <h3>Harmadik</h3>
+        <h4>Negyedik</h4>
+        <h5>Ötödik</h5>
+        <h6>Hatodik</h6>
+        <p>Bekezdés</p>
+        <p id="elsopa"><b>Lorem ipsum dolor sit amet,</b> consectetur adipiscing elit. Proin eu magna suscipit, dictum neque nec, rhoncus arcu. Etiam velit erat, mollis at lorem pretium, laoreet laoreet mi. In hac habitasse platea dictumst. Donec eleifend tellus nec arcu faucibus hendrerit. <strong>Suspendisse porttitor turpis sit</strong> amet est sollicitudin, ac <i>facilisis nisi porta.</i> Praesent iaculis hendrerit erat, in interdum est ullamcorper ac. <em>Nam cursus purus</em> a justo vehicula, sit amet interdum urna volutpat.</p>
+        <p>Phasellus ut accumsan arcu. Ut cursus euismod orci, in dignissim felis commodo quis. Nullam eget libero eu leo aliquam porttitor. Quisque diam dui, lacinia finibus hendrerit non, egestas eu urna. Mauris tortor turpis, luctus eu lectus a, interdum malesuada felis. <u>In ut sem at velit dictum scelerisque</u> quis sit amet purus. In neque odio, pellentesque vitae nulla et, feugiat porta risus. Aliquam erat volutpat. Cras erat orci, imperdiet id sollicitudin quis, porttitor et tellus.</p>
+			
+        <h2>Felsorolás</h2>
+        
+        <ul style="list-style-type: square;" class="felsor">
+            <li>halo1</li>
+            <li>halo2</li>
+            <li>halo3</li>
+        </ul>
+        
+        <ol type="I" class="felsor">
+            <li>halo1</li>
+            <li>halo2</li>
+            <li>halo3</li>
+        </ol>
+		
+		
+		<h2>Képek</h2>	
+		<figure>
+		<a href="KEPEK/lm1.jpg" target="_blank"><img src="KEPEK/lm1.jpg" alt="sziaddd" title="TÁJKÉP" width="200"></a>
+		<figcaption>tájkép</figcaption>
+	</figure>
+		
+		
+		<h2 id="#hiperhiv">Hiperhivatkozás</h2>
+		<p>Szöveg: <a href="KEPEK/lm1.jpg">Kattints rám</a></p>
+		
+		
+		<h2>Táblázatkészítése</h2>
+		
+
+		<div class="tabla">
+		<table border="1">
+			<capiton>Tábla név</capiton>
+			<thead>
+			<tr>
+				<th>Első oszlop</th>
+				<th>Masodik oszlop</th>
+				<th>Harmadik oszlop</th>
+				<th>Negyedik oszlop</th>
+			</thead>
+			
+			
+			<tbody>
+			</tr>
+			<tr>
+				<td colspan="3">
+						A
+				
+						B
+				
+						C
+				</td>
+				<td>
+						1
+				</td>
+				
+			</tr>
+			<tr>
+				<td rowspan="2">
+						D G
+				</td>
+				<td>
+						E
+				</td>
+				<td colspan="2" rowspan="2">
+						F
+				
+						2
+						<br>
+						I
+				
+						3
+				</td>
+			</tr>
+			<tr>
+
+				<td>
+						H
+				</td>
+
+			</tr>
+			</tbody>
+		</table>
+	</div>
+        
+        <hr>
+    </body>
+</html>

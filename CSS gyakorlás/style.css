@@ -1,0 +1,98 @@
+body{
+	background-color: red;
+	margin:0px;
+}
+
+.header{
+	background-attachment:fixed;
+	height: 450px;
+	background-size: cover;
+	cursor:wait;
+	
+}
+
+.hatter1{
+	background-image: url(../KEPEK/cityrain.jpg);
+}
+.hatter2{
+	background-image: url(../KEPEK/cityrain2.jpg);
+}
+
+.footer{
+	height: 450px;
+}
+
+
+/*rgba*/
+/*rgb*/
+/**/
+/**/
+
+.header p{
+	margin:0px;
+	text-align: center;
+	font-size: 40px;
+	color: rgb(255,0,255);	
+	text-shadow: 3px 3px 5px black;
+	letter-spacing: 10px;
+}
+
+
+.jobb{
+	background-color:white;
+	height: 466px;
+	width:50%;
+	float:right;
+}
+
+.jobb p,h1{
+	margin:80px;
+	
+}
+
+.jobb p{
+	margin-bottom:0px;
+	margin-top:0px;
+	padding-top:0px;
+}
+
+.jobb h1{
+	margin-bottom:20px;
+}
+
+.jobb img{
+	height:200px;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	margin-top:0px;
+	padding-top:0px;
+}
+
+
+
+.bal {
+	background-color:grey;
+	height: 466px;
+	width:50%;
+	float:left;
+}
+
+.bal img{
+	height:75%;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	line-height:32px;
+}
+
+
+
+
+.ketto{
+	float:right;
+}
+
+.harom{
+	float:left;
+}

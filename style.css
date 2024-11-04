@@ -1,0 +1,58 @@
+
+		body{
+		background-color: lightblue;
+		color:red;
+		
+		}
+		
+        table, td,th {
+            border: 3px groove black;
+            padding: 0px;
+			background-color: white;
+        }
+		
+        table {
+            border: none;
+            border-collapse: collapse;
+        }
+		
+        table {
+            width: 800px;
+            height: 560px;
+        }
+		
+		th{
+			width: 100px;
+		}
+		
+		td{
+			padding: 10px;
+			margin: 0px;
+			text-align: center;
+			line-height: 1.2;
+			
+		}
+		
+		
+		caption{
+		font-style: italic;
+		font-size: larger;
+		}
+
+		img{
+			width: 500px;
+			height: 400px;
+		}
+		
+		h2{
+			color:green;
+		}
+		
+		
+		.elsopa p{
+			background-color: grey;
+		}
+		
+		.felsor{
+			background-color: lightgreen;
+		}
