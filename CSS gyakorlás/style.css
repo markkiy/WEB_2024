@@ -41,7 +41,6 @@ body{
 .jobb{
 	background-color:white;
 	height: 466px;
-	width:50%;
 	float:right;
 }
 
@@ -74,7 +73,6 @@ body{
 .bal {
 	background-color:grey;
 	height: 466px;
-	width:50%;
 	float:left;
 }
 
