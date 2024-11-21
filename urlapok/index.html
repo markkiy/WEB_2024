@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Űrlapok</title>
+</head>
+<body>
+    <h1>Űrlaphasználat</h1>
+    <form action="">
+        <div class="boxok">
+            <label for="">Név: </label>
+            <input type="text" name="nev" placeholder="Példaszöveg">
+        </div>
+        <div class="boxok">
+            <label for="">Email: </label>
+            <input type="email" placeholder="valami@valami.val">
+        </div>
+        <div class="boxok">
+            <label for="">Születési év: </label>
+            <input type="number" placeholder="év" value="2000" min="1904" max="2024">
+        </div>
+        <div class="boxok">
+            <label for="">Legmagasabb iskolai végzettség: </label>
+            <br>
+            <label>Óvoda</label>
+            <input type="radio" name="végzettség">
+            <br>
+            <Label>Általános</Label>
+            <input type="radio" name="végzettség">
+            <br>
+            <Label>Egyetem</Label>
+            <input type="radio" name="végzettség">
+
+            <br>
+            <label for="">Legmagasabb iskolai végzettség: </label>
+            <br>
+            <label>Óvoda</label>
+            <input type="radio" name="végzettség2">
+            <br>
+            <Label>Általános</Label>
+            <input type="radio" name="végzettség2">
+            <br>
+            <Label>Egyetem</Label>
+            <input type="radio" name="végzettség2">
+
+            <br>
+            <label for="">Neme: </label>
+            <br>
+            <label>Férfi</label>
+            <input type="radio" name="neme">
+            <br>
+            <Label>Nő</Label>
+            <input type="radio" name="neme">
+
+        </div>
+
+        <div class="boxok">
+            <label for="">Kedvenc szinem: </label>
+            <br>
+            <label for="">Zöld</label>
+            <input type="checkbox" value="zöld">
+            <br>
+            <label for="">Piros</label>
+            <input type="checkbox" value="Piros">
+            <br>
+            <label for="">Kék</label>
+            <input type="checkbox" value="Kék">
+            <br>
+            <label for="">Sárga</label>
+            <input type="checkbox" value="Sárga">
+        </div>
+
+
+
+        <div class="vege"></div>
+            <input type="button" value="Ok">
+            <button>Kilépés</button>
+            <input type="reset" value="Adatok törlése">
+        </div>
+    </form>
+</body>
+</html>
