@@ -9,6 +9,8 @@
 <body>
     <h1>Űrlaphasználat</h1>
     <form action="">
+        <fieldset class="sza">
+            <legend><b>Személyes adatok</b></legend>
         <div class="boxok">
             <label for="">Név: </label>
             <input type="text" name="nev" placeholder="Példaszöveg">
@@ -21,64 +23,84 @@
             <label for="">Születési év: </label>
             <input type="number" placeholder="év" value="2000" min="1904" max="2024">
         </div>
+
+        
+
         <div class="boxok">
-            <label for="">Legmagasabb iskolai végzettség: </label>
-            <br>
-            <label>Óvoda</label>
-            <input type="radio" name="végzettség">
-            <br>
-            <Label>Általános</Label>
-            <input type="radio" name="végzettség">
-            <br>
-            <Label>Egyetem</Label>
-            <input type="radio" name="végzettség">
-
-            <br>
-            <label for="">Legmagasabb iskolai végzettség: </label>
-            <br>
-            <label>Óvoda</label>
-            <input type="radio" name="végzettség2">
-            <br>
-            <Label>Általános</Label>
-            <input type="radio" name="végzettség2">
-            <br>
-            <Label>Egyetem</Label>
-            <input type="radio" name="végzettség2">
-
-            <br>
-            <label for="">Neme: </label>
+     <label for="">Neme: </label>
             <br>
             <label>Férfi</label>
             <input type="radio" name="neme">
             <br>
-            <Label>Nő</Label>
             <input type="radio" name="neme">
-
+            <Label>Nő</Label>
         </div>
-
-        <div class="boxok">
-            <label for="">Kedvenc szinem: </label>
-            <br>
-            <label for="">Zöld</label>
-            <input type="checkbox" value="zöld">
-            <br>
-            <label for="">Piros</label>
-            <input type="checkbox" value="Piros">
-            <br>
-            <label for="">Kék</label>
-            <input type="checkbox" value="Kék">
-            <br>
-            <label for="">Sárga</label>
-            <input type="checkbox" value="Sárga">
-        </div>
+        </fieldset>
 
 
+        <fieldset class="liv">
+            
+            
+            <div class="boxok">
+                <label for="">Legmagasabb iskolai végzettség: </label>
+                <br>
+                <label>Óvoda</label>
+                <input type="radio" name="végzettség">
+                <br>
+                <Label>Általános</Label>
+                <input type="radio" name="végzettség">
+                <br>
+                <Label>Egyetem</Label>
+                <input type="radio" name="végzettség">
+    
+                <br>
+    
+            </div>
 
-        <div class="vege"></div>
-            <input type="button" value="Ok">
-            <button>Kilépés</button>
-            <input type="reset" value="Adatok törlése">
-        </div>
-    </form>
+        </fieldset>
+    
+
+        <fieldset class="szin">
+            <div class="boxok">
+                <label for="">Kedvenc szinem: </label>
+                <br>
+                <label for="">Zöld</label>
+                <input type="checkbox" value="zöld">
+                <br>
+                <label for="">Piros</label>
+                <input type="checkbox" value="Piros">
+                <br>
+                <label for="">Kék</label>
+                <input type="checkbox" value="Kék">
+                <br>
+                <label for="">Sárga</label>
+                <input type="checkbox" value="Sárga">
+            </div>
+        </fieldset>
+    
+            <fieldset class="Kedvenc">
+            <legend>Válassz mindegyikből egyet</legend>
+            <label>Kedvenc autómárkák: </label>
+            <select size="4" multiple>
+                <option value="suzuki">Suzuki</option>
+                <option value="bmw" selected>BWM</option>
+                <option value="ford">Ford</option>
+                <option value="lada">Lada</option>
+                <option value="melynyomo">Mélynyomó</option>
+            </select>
+
+    </fieldset>
+        <fieldset class="tovabbi">
+            <legend>További vélemények</legend>
+            <textarea>Ide irj</textarea>
+        </fieldset>
+             
+            <div class="vege"></div>
+                <input type="button" value="Ok" disabled>
+                <button>Kilépés</button>
+                <input type="reset" value="Adatok törlése">
+            </div>
+        </form>
+        
 </body>
 </html>

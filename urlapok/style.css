@@ -12,3 +12,29 @@ body{
     line-height: 40px;
 }
 
+.sza{
+    width: 48%;
+
+    float: left;
+}
+
+.liv{
+    width: 48%;
+    float: right;
+
+
+}
+
+.szin{
+    width: 50%;
+    float: right;
+}
+
+.kedvenc{
+    width: 50%;
+    text-align: center;
+}
+
+.tovabbi{
+    display: flex;
+}
