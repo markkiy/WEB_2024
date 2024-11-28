@@ -95,13 +95,28 @@
             <legend>További vélemények</legend>
             <textarea>Ide irj</textarea>
         </fieldset>
+
+        <fieldset>
+            <legend>értékelés</legend>
+            <label>Százalékos</label>
+            <br>
+            <input type="range" id="csuszka" min="0" max="100" onchange="ÉrtékKiirat()">
+            <p id="csuszkaértéke">gg</p>
+    
+        </fieldset>
              
             <div class="vege"></div>
-                <input type="button" value="Ok" disabled>
-                <button>Kilépés</button>
-                <input type="reset" value="Adatok törlése">
+                <input type="button" value="Ok" class="gomb">
+                <button class="gomb">Kilépés</button>
+                <input type="reset" value="Adatok törlése" class="gomb">
             </div>
         </form>
         
+
+        <script>
+            function ÉrtékKiirat(){
+                document.getElementById("csuszkaértéke").innerHTML = document.getElementById("csuszka").value;
+            }
+        </script>
 </body>
 </html>

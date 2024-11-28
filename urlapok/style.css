@@ -6,6 +6,8 @@ body{
     font-weight: 800;
     font-style: normal;
     text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 .boxok{
@@ -21,20 +23,43 @@ body{
 .liv{
     width: 48%;
     float: right;
+    height: 256px;
 
 
 }
 
+textarea{
+    width: 100%;
+    height: 100%;
+}
+
 .szin{
-    width: 50%;
+    width: 48%;
     float: right;
 }
 
 .kedvenc{
-    width: 50%;
+    width: 26%;
     text-align: center;
 }
 
 .tovabbi{
-    display: flex;
+    float: left;
+    width: 48%;
+    height: 93px;
+}
+
+.gomb{
+    display: inline-block;
+    padding: 14px 26px;
+    background: #ff9100;
+    color: #fffbf6;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 30px;
+    margin-left:100px;
+}
+
+.gomb:hover{
+    transform: scale(1.02);
 }
