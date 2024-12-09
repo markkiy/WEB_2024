@@ -8,15 +8,20 @@ body{
     text-align: center;
     margin: 0px;
     padding: 0px;
+    text-shadow: 1px 1px lightgray;
 }
 
 .boxok{
     line-height: 40px;
+    background-color: lightpink;
+    padding: 0px;
+    margin: 0px;
+    opacity: 40%;
 }
 
 .sza{
     width: 48%;
-
+    box-shadow: 5px 5px lightblue;
     float: left;
 }
 
@@ -62,4 +67,10 @@ textarea{
 
 .gomb:hover{
     transform: scale(1.02);
+}
+
+fieldset img{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
 }

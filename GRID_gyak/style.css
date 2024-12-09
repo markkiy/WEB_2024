@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.nav-bar{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.nav-bar a{
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    margin-top:10px;
+    font-size: 15px;
+}
+
+
+.oldal a{
+    text-decoration: none;
+}
+
+.oldal{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: 20px;
+}
+
+.termek1, .termek2, .termek3, .termek4{
+    width: 300px;
+    height: 400px;
+    background-color: lightgray;
+    border-radius: 5px;
+
+}
+
+
+.termek1 img, .termek2 img, .termek3 img, .termek4 img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.oldal p{
+    text-align: center;
+    font-size: large;
+}
+
+.oldal .termekneve{
+    font-weight: bold;
+    margin: 20px;
+}
+
+.oldal .termekara{
+    color: grey;
+}
+
+.alul{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    height: 40px;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.alul a{
+    text-decoration: none;
+    color: white;
+}
