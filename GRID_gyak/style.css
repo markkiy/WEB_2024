@@ -12,11 +12,14 @@ body{
     background-color: #f9f5f4;
     display: flex;
     flex-direction: column;
+    background-image:url(./kepek/4419119.jpg);
+    background-size: 100%;
+    backdrop-filter: blur(10px);
 }
 
 .felso{
     width: 100%;
-    background-color: black;
+    background-color: #201e1f;
     display: flex;
     height: 40px;
     justify-content: space-between;
@@ -40,37 +43,38 @@ body{
 }
 
 .oldal{
-    display: flex;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     margin: 50px;
 }
 
-.termek1, .termek2, .termek3, .termek4{
+.termek{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 300px;
     height: 400px;
-    background-color: #eeebea;
+    background-color: #201e1f;
     border-radius: 5px;
 
 }
 
-.termek1:hover, .termek2:hover, .termek3:hover, .termek4:hover{
+.termek:hover{
     width: 300px;
     height: 400px;
-    background-color: #dfdddd;;
+    background-color: #231f1f;
     border-radius: 5px;
     transform: scale(1.01);
     cursor: pointer;
     color: #ff9100;
+    border: 1px solid black;
 
 }
 
 
-.termek1 img, .termek2 img, .termek3 img, .termek4 img{
+.termek img{
     width: 200px;
     height: 200px;
     margin: 20px;
@@ -78,7 +82,11 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-left: 45px;
+    
 }
+
+
+
 
 .oldal p{
     text-align: center;
@@ -97,12 +105,11 @@ body{
 
 .alul{
     width: 100%;
-    background-color: black;
+    background-color: #201e1f;
     display: flex;
     height: 40px;
     justify-content: space-around;
     margin-top: auto;
-    position: fixed;
     bottom: 0;
 }
 
@@ -114,4 +121,30 @@ body{
 .felso a:hover, .alul a:hover{
     color:#ff9100;
     transform: scale(1.02);
+}
+
+
+@media screen and (max-width: 768px){
+    .oldal{
+        grid-template-columns: repeat(auto-fill, minmax(250px, 4));
+        margin: 20px;
+    }
+
+    .felso a{
+        font-size: 16px;
+    }
+
+    .termek{
+        width: 250px;
+        height: 350px;
+    }
+
+    .termek img{
+        width: 180px;
+        height: 180px;
+    }
+
+    .oldal p{
+        font-size: medium;
+    }
 }
