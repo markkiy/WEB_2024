@@ -1,0 +1,50 @@
+body{
+    background-color: lightblue;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.bal, .jobb{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.kep img{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 10px;
+
+}
+}
+
+@media (max-width: 480px){
+    .jobb{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .bal{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .kep{
+        display: flex;
+        justify-content: center;
+    }
+}
