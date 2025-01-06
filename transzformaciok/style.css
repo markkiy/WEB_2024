@@ -1,0 +1,52 @@
+body{
+    background-color: beige;
+}
+
+div{
+    background-color: blueviolet;
+    border: 1px solid black;
+    height: 60px;
+    width: 100px;
+    display: inline-block;
+    margin: 3vw;
+}
+
+
+.forgatas1{
+    border-radius: 10px 0 0 0;
+    transform: rotate(60deg);
+}
+
+.forgatas2{
+    border-radius: 10px 0 0 0;
+    transform: rotate(0.1turn);
+}
+
+.forgatas3{
+    border-radius: 10px 0 0 0;
+    transform: rotateY(60deg);
+}
+
+.nagyitas1{
+    transform: scale(1.5);
+}
+
+.nagyitas2{
+    transform: scale(.5);
+}
+
+.nagyitas3{
+    transform: scaleY(150%);
+}
+
+.eltolas1{
+    transform: translate(60px,60px);
+}
+
+.eltolas2{
+    transform: translateX(50%);
+}
+
+.eltolas3{
+    transform: translate(-60px, 60px);
+}
